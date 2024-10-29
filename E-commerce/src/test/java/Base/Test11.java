@@ -55,7 +55,7 @@ public class Test11 {
 		// Navigate methods
 		driver.navigate().refresh();
 		driver.navigate().forward();
-	
+		driver.navigate().back();
 	Thread.sleep(5000);
 	driver.quit();
 	}
