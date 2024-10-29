@@ -52,7 +52,7 @@ public class Test11 {
 		select.selectByValue("Hello World");
 		select.selectByVisibleText("Login");
 		
-		
+		// Navigate methods
 		driver.navigate().refresh();
 		driver.navigate().forward();
 	
